@@ -6,7 +6,7 @@
 version: 2
 updates:
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/module' # Location of package manifests
+    directory: '/' # Location of package manifests
     schedule:
       interval: 'weekly'
     # Optional: Limit number of open PRs for version updates
