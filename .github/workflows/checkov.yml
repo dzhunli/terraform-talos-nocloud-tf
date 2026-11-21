@@ -14,7 +14,7 @@ permissions:
   pull-requests: write
 
 env:
-  TF_WORKING_DIR: module
+  TF_WORKING_DIR: .
 
 jobs:
   checkov:
