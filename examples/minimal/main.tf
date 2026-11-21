@@ -1,4 +1,8 @@
 # Smallest useful setup: 1 control plane + 1 worker, DHCP (use reservations!), Flannel CNI.
+terraform {
+  required_version = ">= 1.5.0"
+}
+
 module "talos" {
   source = "../.."
 
